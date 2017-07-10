@@ -3,8 +3,8 @@
 const Web3 = require("web3");
 var Promise = require("es6-promise").Promise;
 const config = require("./config.json");
-const mongoConnect = require("./connectors/mongodb/index.js");
-const neo4jConnect = require("./connectors/neo4j/index.js");
+const mongoConnect = require("p2b2-connector-mongodb");
+const neo4jConnect = require("p2b2-connector-neo4j");
 const winston = require('winston');
 
 // At RisingStack, we usually set the configuration from an environment variable called LOG_LEVEL
